@@ -1,0 +1,199 @@
+{
+  "cards": [
+    {
+      "deck_id": "a2wthd21lmnmbapdk",
+      "front": "enumerate()",
+      "language": "SQL",
+      "description": "Função/conceito de SQL: enumerate()",
+      "code_example": "# enumerate()\n# Adicione o exemplo aqui",
+      "exercise": "Demonstre o uso de enumerate() com um exemplo prático.",
+      "difficulty": 2,
+      "status": "learning",
+      "next_review": "2026-04-07",
+      "user_id": null,
+      "id": "dtqb7ja3vmnmbbgri",
+      "created_at": "2026-04-05T22:07:50.430Z",
+      "updated_at": "2026-04-05T22:09:35.648Z"
+    },
+    {
+      "id": "ezsrec2klmnmbaiuu",
+      "deck_id": "wej8f4o9lmnmbaiut",
+      "user_id": null,
+      "front": "enumerate()",
+      "front_subtitle": "Itera com índice",
+      "language": "Python",
+      "description": "Retorna um iterável de tuplas (índice, valor) para cada elemento.",
+      "code_example": "for i, item in enumerate(lista):\n    print(i, item)",
+      "exercise": "Use enumerate() para imprimir itens com índice.",
+      "difficulty": 1,
+      "status": "dominated",
+      "next_review": "2026-04-09",
+      "created_at": "2026-04-05T22:07:06.486Z",
+      "updated_at": "2026-04-05T22:09:39.329Z"
+    },
+    {
+      "id": "x20l5zk8ymnmbaiuu",
+      "deck_id": "ayo8r0wb5mnmbaiuu",
+      "user_id": null,
+      "front": "df.groupby()",
+      "front_subtitle": "Agrupa por coluna",
+      "language": "Pandas",
+      "description": "Agrupa dados por colunas e aplica agregações.",
+      "code_example": "df.groupby('categoria').sum()",
+      "exercise": "Agrupe por categoria e some os valores.",
+      "difficulty": 3,
+      "status": "learning",
+      "next_review": "2026-04-07",
+      "created_at": "2026-04-05T22:07:06.486Z",
+      "updated_at": "2026-04-05T22:09:44.714Z"
+    },
+    {
+      "id": "4pxk4b9x5mnmbaiuu",
+      "deck_id": "kh08m9ch8mnmbaiuu",
+      "user_id": null,
+      "front": "LEFT JOIN",
+      "front_subtitle": "Une tabelas pela esquerda",
+      "language": "SQL",
+      "description": "Retorna todos os registros da tabela esquerda + correspondentes.",
+      "code_example": "SELECT * FROM a LEFT JOIN b ON a.id = b.a_id",
+      "exercise": "Faça um LEFT JOIN entre usuarios e pedidos.",
+      "difficulty": 2,
+      "status": "learning",
+      "next_review": "2026-04-07",
+      "created_at": "2026-04-05T22:07:06.486Z",
+      "updated_at": "2026-04-05T22:09:47.281Z"
+    },
+    {
+      "id": "9vw04fgb7mnmbaiuu",
+      "deck_id": "x77tbjhfumnmbaiuu",
+      "user_id": null,
+      "front": "git rebase",
+      "front_subtitle": "Reorganiza commits",
+      "language": "Git",
+      "description": "Reaplica commits sobre outra base.",
+      "code_example": "git rebase main",
+      "exercise": "Rebase sua branch na main.",
+      "difficulty": 1,
+      "status": "dominated",
+      "next_review": "2026-04-12",
+      "created_at": "2026-04-05T22:07:06.486Z",
+      "updated_at": "2026-04-05T22:07:06.486Z"
+    },
+    {
+      "id": "0oame1nm6mnmbaiuu",
+      "deck_id": "wej8f4o9lmnmbaiut",
+      "user_id": null,
+      "front": "list comprehension",
+      "front_subtitle": "Lista por expressão",
+      "language": "Python",
+      "description": "Cria listas de forma concisa com expressões.",
+      "code_example": "[x**2 for x in range(10)]",
+      "exercise": "Crie uma lista com quadrados de 0 a 9.",
+      "difficulty": 2,
+      "status": "dominated",
+      "next_review": "2026-04-09",
+      "created_at": "2026-04-05T22:07:06.486Z",
+      "updated_at": "2026-04-05T22:09:49.496Z"
+    }
+  ],
+  "decks": [
+    {
+      "id": "wej8f4o9lmnmbaiut",
+      "name": "Python Básico",
+      "description": "Built-ins, estruturas, loops, funções",
+      "icon": "🐍",
+      "color": "#1D6FA4",
+      "is_official": true,
+      "user_id": null,
+      "total_cards": 40,
+      "created_at": "2026-04-05T22:07:06.485Z",
+      "updated_at": "2026-04-05T22:07:06.486Z"
+    },
+    {
+      "id": "kh08m9ch8mnmbaiuu",
+      "name": "SQL Completo",
+      "description": "SELECT, JOINs, CTEs, Window Functions",
+      "icon": "🗃️",
+      "color": "#B45309",
+      "is_official": true,
+      "user_id": null,
+      "total_cards": 35,
+      "created_at": "2026-04-05T22:07:06.486Z",
+      "updated_at": "2026-04-05T22:07:06.486Z"
+    },
+    {
+      "id": "ayo8r0wb5mnmbaiuu",
+      "name": "Pandas",
+      "description": "DataFrames, merge, groupby, apply",
+      "icon": "🐼",
+      "color": "#16A34A",
+      "is_official": true,
+      "user_id": null,
+      "total_cards": 42,
+      "created_at": "2026-04-05T22:07:06.486Z",
+      "updated_at": "2026-04-05T22:07:06.486Z"
+    },
+    {
+      "id": "x77tbjhfumnmbaiuu",
+      "name": "Git & Terminal",
+      "description": "Commits, branches, rebase, stash",
+      "icon": "🔀",
+      "color": "#EA580C",
+      "is_official": true,
+      "user_id": null,
+      "total_cards": 30,
+      "created_at": "2026-04-05T22:07:06.486Z",
+      "updated_at": "2026-04-05T22:07:06.486Z"
+    },
+    {
+      "name": "Teste",
+      "description": "teste",
+      "icon": "📚",
+      "color": "#3B82F6",
+      "is_official": false,
+      "user_id": null,
+      "total_cards": 1,
+      "id": "a2wthd21lmnmbapdk",
+      "created_at": "2026-04-05T22:07:14.936Z",
+      "updated_at": "2026-04-05T22:07:50.430Z"
+    }
+  ],
+  "reviewHistory": [
+    {
+      "id": "vfjovm9w5mnmbdpy8",
+      "user_id": null,
+      "card_id": "dtqb7ja3vmnmbbgri",
+      "result": "medium",
+      "created_at": "2026-04-05T22:09:35.648Z"
+    },
+    {
+      "id": "9wfcaru4qmnmbdssh",
+      "user_id": null,
+      "card_id": "ezsrec2klmnmbaiuu",
+      "result": "easy",
+      "created_at": "2026-04-05T22:09:39.329Z"
+    },
+    {
+      "id": "24abmmgsimnmbdwy2",
+      "user_id": null,
+      "card_id": "x20l5zk8ymnmbaiuu",
+      "result": "medium",
+      "created_at": "2026-04-05T22:09:44.714Z"
+    },
+    {
+      "id": "aw9h6ofb8mnmbdyxd",
+      "user_id": null,
+      "card_id": "4pxk4b9x5mnmbaiuu",
+      "result": "medium",
+      "created_at": "2026-04-05T22:09:47.281Z"
+    },
+    {
+      "id": "nrd2hpac7mnmbe0mw",
+      "user_id": null,
+      "card_id": "0oame1nm6mnmbaiuu",
+      "result": "easy",
+      "created_at": "2026-04-05T22:09:49.496Z"
+    }
+  ],
+  "dailyActivity": []
+}
